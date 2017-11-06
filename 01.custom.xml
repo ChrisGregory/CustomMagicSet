@@ -27,7 +27,7 @@
 			<cipt>1</cipt>
 		</card>
 		<card>
-			<name>CreatureTemplate</name> <!--The Card's Name-->
+			<name>CreatureTemplate</name>
 			<set picURL="">CS1</set>
 			<color>W</color>
 			<manacost>W</manacost>
@@ -38,7 +38,7 @@
 			<text>Template</text>
 		</card>
 		<card>
-			<name>ArtifactEnchantmentTemplate</name> <!--The Card's Name-->
+			<name>ArtifactEnchantmentTemplate</name>
 			<set picURL="">CS1</set>
 			<color>W</color>
 			<manacost>W</manacost>
@@ -47,7 +47,7 @@
 			<tablerow>1</tablerow>
 			<text>Template</text>
 		</card>
-		<!--Topher's Cards-->
+		<!-- Lands -->
 		<card>
 			<name>Azorius Share-land</name>
 			<set picURL="">CS1</set>
@@ -148,5 +148,62 @@
 			<text>~ enters the battlefield tapped unless another player controls more lands than you.\n{T}: Add G or U to target player's mana pool.</text>
 			<cipt>1</cipt>
 		</card>
+		<card>
+			<name>Chromatic Spring</name>
+			<set picURL="">CS1</set>
+			<manacost>0</manacost>
+			<cmc>0</cmc>
+			<type>Land</type>
+			<tablerow>0</tablerow>
+			<text>~ enters the battlefield tapped and doesn't untap on your next untap step.\n{T}: Add one mana of any color to your mana pool.</text> <!-- Is the drawback of not being able to use this until two turns after you play it enough of a drawback? Is this the proper wording for this effect? -->
+			<cipt>1</cipt>
+		</card>
+		<!-- Creatures -->
+		<!-- Enchantments -->
+		<card>
+			<name>Chroma Processing WIP</name>
+			<set picURL="">CS1</set>
+			<color>G</color>
+			<manacost>G</manacost> <!-- TBD -->
+			<cmc>0</cmc> <!-- TBD -->
+			<type>Enchantment</type>
+			<tablerow>1</tablerow>
+			<text>Lands you control enter the battlefield tapped and have "{T}: Add one mana of any color to your mana pool."</text>
+		</card>
+		<card>
+			<name>Circle of Protection: Tribal</name>
+			<set picURL="">CS1</set>
+			<color>W</color>
+			<manacost>1W</manacost>
+			<cmc>2</cmc>
+			<type>Enchantment</type>
+			<tablerow>1</tablerow>
+			<text>When ~ enters the battlefield, choose a creature type.\n{2}: The next time a creature of the chosen type would deal damage to you this turn, prevent that damage.</text>
+		</card>
+		<!-- Artifacts -->
+		<!-- Planeswalkers -->
+		<!-- Instants -->
+		<card>
+			<name>Focus</name>
+			<set picURL="">CS1</set>
+			<color>U</color>
+			<manacost>0</manacost>
+			<cmc>0</cmc>
+			<type>Instant</type>
+			<tablerow>3</tablerow>
+			<text>(~ is Blue)\nScry 1</text>
+		</card>
+		<card>
+			<name>Study the Tomes</name>
+			<set picURL="">CS1</set>
+			<color>U</color>
+			<manacost>1UU</manacost>
+			<cmc>3</cmc>
+			<type>Instant</type>
+			<tablerow>3</tablerow>
+			<text>Draw 2 cards.</text>
+		</card>
+		<!-- Sorceries -->
+		<!-- Other -->
 	</cards>
 </cockatrice_carddatabase>
