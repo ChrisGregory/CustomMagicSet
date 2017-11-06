@@ -1,0 +1,53 @@
+<cockatrice_carddatabase version="3">
+	<cards>
+		<!--Templates-->
+		<card>
+			<name>Template</name> <!--The Card's Name-->
+			<set picURL="">CS1</set> <!--The URL to a card image and the set code.-->
+			<related></related> <!--Related cards, used if this is a flip card or if this card makes tokens. Removable if unneeded.-->
+			<color>W</color> <!--The card's color (1 per tag, use multiple tags for multicolored cards, or no tags for colorless cards).-->
+			<manacost>0</manacost> <!--Place the manacost here. Use 0 for lands.-->
+			<cmc>0</cmc> <!--The cards converted mana cost-->
+			<type></type> <!--The card's type, including supertypes and subtypes.-->
+			<pt>1/1</pt> <!--The card's power and toughness. Removable if unneeded.-->
+			<loyalty>0</loyalty> <!--The card's starting loyalty. Removable if unneeded.-->
+			<tablerow>0</tablerow> <!--0: Land, 1: Planeswalker/Enchantment/Artifact, 2: Creature, 3: Instant/Sorcery-->
+			<text>Template</text> <!--The card's rules text-->
+			<token>1</token> <!--Put 1 if this is a token, otherwise remove this tag.-->
+			<cipt>1</cipt> <!--Put 1 if this card enters play tapped, otherwise remove this tag.-->
+		</card>
+		<card>
+			<name>LandTemplate</name>
+			<set picURL="">CS1</set>
+			<manacost>0</manacost>
+			<cmc>0</cmc>
+			<type>Land</type>
+			<tablerow>0</tablerow>
+			<text>Template</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>CreatureTemplate</name> <!--The Card's Name-->
+			<set picURL="">CS1</set>
+			<color>W</color>
+			<manacost>W</manacost>
+			<cmc>0</cmc>
+			<type>Creature - Subtype</type>
+			<pt>1/1</pt>
+			<tablerow>2</tablerow>
+			<text>Template</text>
+		</card>
+		<card>
+			<name>ArtifactEnchantmentTemplate</name> <!--The Card's Name-->
+			<set picURL="">CS1</set>
+			<color>W</color>
+			<manacost>W</manacost>
+			<cmc>0</cmc>
+			<type>Artifact</type>
+			<tablerow>1</tablerow>
+			<text>Template</text>
+		</card>
+		<!--Topher's Cards-->
+		
+	</cards>
+</cockatrice_carddatabase>
