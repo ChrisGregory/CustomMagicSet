@@ -48,6 +48,105 @@
 			<text>Template</text>
 		</card>
 		<!--Topher's Cards-->
-		
+		<card>
+			<name>Azorius Share-land</name>
+			<set picURL="">CS1</set>
+			<manacost>0</manacost>
+			<cmc>0</cmc>
+			<type>Land</type>
+			<tablerow>0</tablerow>
+			<text>~ enters the battlefield tapped unless another player controls more lands than you.\n{T}: Add W or U to target player's mana pool.</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Dimir Share-land</name>
+			<set picURL="">CS1</set>
+			<manacost>0</manacost>
+			<cmc>0</cmc>
+			<type>Land</type>
+			<tablerow>0</tablerow>
+			<text>~ enters the battlefield tapped unless another player controls more lands than you.\n{T}: Add U or B to target player's mana pool.</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Rakdos Share-land</name>
+			<set picURL="">CS1</set>
+			<manacost>0</manacost>
+			<cmc>0</cmc>
+			<type>Land</type>
+			<tablerow>0</tablerow>
+			<text>~ enters the battlefield tapped unless another player controls more lands than you.\n{T}: Add B or R to target player's mana pool.</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Gruul Share-land</name>
+			<set picURL="">CS1</set>
+			<manacost>0</manacost>
+			<cmc>0</cmc>
+			<type>Land</type>
+			<tablerow>0</tablerow>
+			<text>~ enters the battlefield tapped unless another player controls more lands than you.\n{T}: Add R or G to target player's mana pool.</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Selesnya Share-land</name>
+			<set picURL="">CS1</set>
+			<manacost>0</manacost>
+			<cmc>0</cmc>
+			<type>Land</type>
+			<tablerow>0</tablerow>
+			<text>~ enters the battlefield tapped unless another player controls more lands than you.\n{T}: Add G or W to target player's mana pool.</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Orzhov Share-land</name>
+			<set picURL="">CS1</set>
+			<manacost>0</manacost>
+			<cmc>0</cmc>
+			<type>Land</type>
+			<tablerow>0</tablerow>
+			<text>~ enters the battlefield tapped unless another player controls more lands than you.\n{T}: Add W or B to target player's mana pool.</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Izzet Share-land</name>
+			<set picURL="">CS1</set>
+			<manacost>0</manacost>
+			<cmc>0</cmc>
+			<type>Land</type>
+			<tablerow>0</tablerow>
+			<text>~ enters the battlefield tapped unless another player controls more lands than you.\n{T}: Add U or R to target player's mana pool.</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Golgari Share-land</name>
+			<set picURL="">CS1</set>
+			<manacost>0</manacost>
+			<cmc>0</cmc>
+			<type>Land</type>
+			<tablerow>0</tablerow>
+			<text>~ enters the battlefield tapped unless another player controls more lands than you.\n{T}: Add B or G to target player's mana pool.</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Boros Share-land</name>
+			<set picURL="">CS1</set>
+			<manacost>0</manacost>
+			<cmc>0</cmc>
+			<type>Land</type>
+			<tablerow>0</tablerow>
+			<text>~ enters the battlefield tapped unless another player controls more lands than you.\n{T}: Add R or W to target player's mana pool.</text>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Simic Share-land</name>
+			<set picURL="">CS1</set>
+			<manacost>0</manacost>
+			<cmc>0</cmc>
+			<type>Land</type>
+			<tablerow>0</tablerow>
+			<text>~ enters the battlefield tapped unless another player controls more lands than you.\n{T}: Add G or U to target player's mana pool.</text>
+			<cipt>1</cipt>
+		</card>
 	</cards>
 </cockatrice_carddatabase>
