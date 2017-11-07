@@ -3,10 +3,10 @@
 		<!--Templates-->
 		<card>
 			<name>Template</name> <!--The Card's Name-->
-			<set picURL="">CS1</set> <!--The URL to a card image and the set code.-->
+			<set picURL="https://i.imgur.com/EoBkDoH.jpg">CS1</set> <!--The URL to a card image and the set code.-->
 			<related></related> <!--Related cards, used if this is a flip card or if this card makes tokens. Removable if unneeded.-->
 			<color>W</color> <!--The card's color (1 per tag, use multiple tags for multicolored cards, or no tags for colorless cards).-->
-			<manacost>0</manacost> <!--Place the manacost here. Use 0 for lands.-->
+			<manacost>0</manacost> <!--Place the manacost here.-->
 			<cmc>0</cmc> <!--The cards converted mana cost-->
 			<type></type> <!--The card's type, including supertypes and subtypes.-->
 			<pt>1/1</pt> <!--The card's power and toughness. Removable if unneeded.-->
@@ -16,186 +16,264 @@
 			<token>1</token> <!--Put 1 if this is a token, otherwise remove this tag.-->
 			<cipt>1</cipt> <!--Put 1 if this card enters play tapped, otherwise remove this tag.-->
 		</card>
-		<card>
-			<name>LandTemplate</name>
-			<set picURL="">CS1</set>
-			<manacost>0</manacost>
-			<cmc>0</cmc>
-			<type>Land</type>
-			<tablerow>0</tablerow>
-			<text>Template</text>
-			<cipt>1</cipt>
-		</card>
-		<card>
-			<name>CreatureTemplate</name>
-			<set picURL="">CS1</set>
-			<color>W</color>
-			<manacost>W</manacost>
-			<cmc>0</cmc>
-			<type>Creature - Subtype</type>
-			<pt>1/1</pt>
-			<tablerow>2</tablerow>
-			<text>Template</text>
-		</card>
-		<card>
-			<name>ArtifactEnchantmentTemplate</name>
-			<set picURL="">CS1</set>
-			<color>W</color>
-			<manacost>W</manacost>
-			<cmc>0</cmc>
-			<type>Artifact</type>
-			<tablerow>1</tablerow>
-			<text>Template</text>
-		</card>
 		<!-- Lands -->
 		<card>
-			<name>Azorius Share-land</name>
-			<set picURL="">CS1</set>
-			<manacost>0</manacost>
+			<name>Academy of Law</name>
+			<set picURL="https://i.imgur.com/Fk9g5wm.jpg">CS1</set>
+			<manacost></manacost>
 			<cmc>0</cmc>
 			<type>Land</type>
 			<tablerow>0</tablerow>
-			<text>~ enters the battlefield tapped unless another player controls more lands than you.\n{T}: Add W or U to target player's mana pool.</text>
+			<text>Academy of Law enters the battlefield tapped unless another player controls more lands than you.
+			{T}: Add {W} or {U} to target player's mana pool.</text>
 			<cipt>1</cipt>
 		</card>
 		<card>
-			<name>Dimir Share-land</name>
-			<set picURL="">CS1</set>
-			<manacost>0</manacost>
+			<name>Academy of Deception</name>
+			<set picURL="https://i.imgur.com/pGwriZg.jpg">CS1</set>
+			<manacost></manacost>
 			<cmc>0</cmc>
 			<type>Land</type>
 			<tablerow>0</tablerow>
-			<text>~ enters the battlefield tapped unless another player controls more lands than you.\n{T}: Add U or B to target player's mana pool.</text>
+			<text>Academy of Deception enters the battlefield tapped unless another player controls more lands than you.
+			{T}: Add {U} or B to target player's mana pool.</text>
 			<cipt>1</cipt>
 		</card>
 		<card>
-			<name>Rakdos Share-land</name>
-			<set picURL="">CS1</set>
-			<manacost>0</manacost>
+			<name>Academy of Destruction</name>
+			<set picURL="https://i.imgur.com/aMcWJBi.jpg">CS1</set>
+			<manacost></manacost>
 			<cmc>0</cmc>
 			<type>Land</type>
 			<tablerow>0</tablerow>
-			<text>~ enters the battlefield tapped unless another player controls more lands than you.\n{T}: Add B or R to target player's mana pool.</text>
+			<text>Academy of Destruction enters the battlefield tapped unless another player controls more lands than you.
+			{T}: Add B or {R} to target player's mana pool.</text>
 			<cipt>1</cipt>
 		</card>
 		<card>
-			<name>Gruul Share-land</name>
-			<set picURL="">CS1</set>
-			<manacost>0</manacost>
+			<name>Academy of War</name>
+			<set picURL="https://i.imgur.com/EDtLwij.jpg">CS1</set>
+			<manacost></manacost>
 			<cmc>0</cmc>
 			<type>Land</type>
 			<tablerow>0</tablerow>
-			<text>~ enters the battlefield tapped unless another player controls more lands than you.\n{T}: Add R or G to target player's mana pool.</text>
+			<text>Academy of War enters the battlefield tapped unless another player controls more lands than you.
+			{T}: Add {R} or {G} to target player's mana pool.</text>
 			<cipt>1</cipt>
 		</card>
 		<card>
-			<name>Selesnya Share-land</name>
-			<set picURL="">CS1</set>
-			<manacost>0</manacost>
+			<name>Academy of Harmony</name>
+			<set picURL="https://i.imgur.com/JCAcrxP.jpg">CS1</set>
+			<manacost></manacost>
 			<cmc>0</cmc>
 			<type>Land</type>
 			<tablerow>0</tablerow>
-			<text>~ enters the battlefield tapped unless another player controls more lands than you.\n{T}: Add G or W to target player's mana pool.</text>
+			<text>Academy of Harmony enters the battlefield tapped unless another player controls more lands than you.
+			{T}: Add {G} or {W} to target player's mana pool.</text>
 			<cipt>1</cipt>
 		</card>
 		<card>
-			<name>Orzhov Share-land</name>
-			<set picURL="">CS1</set>
-			<manacost>0</manacost>
+			<name>Academy of Wealth</name>
+			<set picURL="https://i.imgur.com/tDccaHL.jpg">CS1</set>
+			<manacost></manacost>
 			<cmc>0</cmc>
 			<type>Land</type>
 			<tablerow>0</tablerow>
-			<text>~ enters the battlefield tapped unless another player controls more lands than you.\n{T}: Add W or B to target player's mana pool.</text>
+			<text>Academy of Wealth enters the battlefield tapped unless another player controls more lands than you.
+			{T}: Add {W} or B to target player's mana pool.</text>
 			<cipt>1</cipt>
 		</card>
 		<card>
-			<name>Izzet Share-land</name>
-			<set picURL="">CS1</set>
-			<manacost>0</manacost>
+			<name>Academy of Knowledge</name>
+			<set picURL="https://i.imgur.com/VTv47TX.jpg">CS1</set>
+			<manacost></manacost>
 			<cmc>0</cmc>
 			<type>Land</type>
 			<tablerow>0</tablerow>
-			<text>~ enters the battlefield tapped unless another player controls more lands than you.\n{T}: Add U or R to target player's mana pool.</text>
+			<text>Academy of Knowledge enters the battlefield tapped unless another player controls more lands than you.
+			{T}: Add {U} or {R} to target player's mana pool.</text>
 			<cipt>1</cipt>
 		</card>
 		<card>
-			<name>Golgari Share-land</name>
-			<set picURL="">CS1</set>
-			<manacost>0</manacost>
+			<name>Academy of Death</name>
+			<set picURL="https://i.imgur.com/EGE0mBP.jpg">CS1</set>
+			<manacost></manacost>
 			<cmc>0</cmc>
 			<type>Land</type>
 			<tablerow>0</tablerow>
-			<text>~ enters the battlefield tapped unless another player controls more lands than you.\n{T}: Add B or G to target player's mana pool.</text>
+			<text>Academy of Death enters the battlefield tapped unless another player controls more lands than you.
+			{T}: Add B or {G} to target player's mana pool.</text>
 			<cipt>1</cipt>
 		</card>
 		<card>
-			<name>Boros Share-land</name>
-			<set picURL="">CS1</set>
-			<manacost>0</manacost>
+			<name>Academy of Battle</name>
+			<set picURL="https://i.imgur.com/WQG3KMc.jpg">CS1</set>
+			<manacost></manacost>
 			<cmc>0</cmc>
 			<type>Land</type>
 			<tablerow>0</tablerow>
-			<text>~ enters the battlefield tapped unless another player controls more lands than you.\n{T}: Add R or W to target player's mana pool.</text>
+			<text>Academy of ~ enters the battlefield tapped unless another player controls more lands than you.
+			{T}: Add {R} or {W} to target player's mana pool.</text>
 			<cipt>1</cipt>
 		</card>
 		<card>
-			<name>Simic Share-land</name>
-			<set picURL="">CS1</set>
-			<manacost>0</manacost>
+			<name>Academy of Creation</name>
+			<set picURL="https://i.imgur.com/TWgRUWK.jpg">CS1</set>
+			<manacost></manacost>
 			<cmc>0</cmc>
 			<type>Land</type>
 			<tablerow>0</tablerow>
-			<text>~ enters the battlefield tapped unless another player controls more lands than you.\n{T}: Add G or U to target player's mana pool.</text>
+			<text>Academy of ~ enters the battlefield tapped unless another player controls more lands than you.
+			{T}: Add {G} or {U} to target player's mana pool.</text>
 			<cipt>1</cipt>
 		</card>
 		<card>
-			<name>Chromatic Spring</name>
-			<set picURL="">CS1</set>
-			<manacost>0</manacost>
+			<name>Chromatic Gate</name>
+			<set picURL="https://i.imgur.com/QZmWYfb.jpg">CS1</set>
+			<manacost></manacost>
 			<cmc>0</cmc>
 			<type>Land</type>
 			<tablerow>0</tablerow>
-			<text>~ enters the battlefield tapped and doesn't untap on your next untap step.\n{T}: Add one mana of any color to your mana pool.</text> <!-- Is the drawback of not being able to use this until two turns after you play it enough of a drawback? Is this the proper wording for this effect? -->
+			<text>Chromatic Gate enters the battlefield tapped and doesn't untap on your next untap step.
+			{T}: Add one mana of any color to your mana pool.</text> <!-- Is the drawback of not being able to use this until two turns after you play it enough of a drawback? Is this the proper wording for this effect? -->
 			<cipt>1</cipt>
 		</card>
 		<!-- Creatures -->
+		<card>
+			<name>Chronicler of War</name>
+			<set picURL="https://i.imgur.com/iEU9pt4.jpg">CS1</set>
+			<color>U</color>
+			<manacost>3U</manacost>
+			<cmc>4</cmc>
+			<type>Creature - Human Monk</type>
+			<pt>2/4</pt>
+			<tablerow>2</tablerow>
+			<text>Chronicler of War costs {1} less to cast for each legendary permenant on the battlefield.
+			Prowess</text>
+		</card>
+		<card>
+			<name>Order of the Acorn</name>
+			<set picURL="https://i.imgur.com/ZnDfO1O.jpg">CS1</set>
+			<related>Squirrel</related>
+			<color>G</color>
+			<manacost>1GG</manacost>
+			<cmc>3</cmc>
+			<type>Creature - Squirrel Knight</type>
+			<pt>2/1</pt>
+			<tablerow>2</tablerow>
+			<text>First Strike
+			Whenever a forest enters the battlefield under your control, create a 1/1 green Squirrel token.
+			Other Squirrel creatures you control get +1/+1 and are knights in addition to their other types.
+			{W}: Target squirrel gains vigilance until end of turn.</text>
+		</card>
+		<card>
+			<name>Goblin Gambler</name>
+			<set picURL="https://i.imgur.com/DyNfqnS.jpg">CS1</set>
+			<color>R</color>
+			<manacost>1R</manacost>
+			<cmc>2</cmc>
+			<type>Creature - Goblin Warrior</type>
+			<pt>3/1</pt>
+			<tablerow>2</tablerow>
+			<text>{R}: Flip a coin, if you win the flip, Goblin Gambler gets double strike until end of turn. If you lose the flip, Goblin Gambler deals 1 damage to itself.</text>
+		</card>
+		<card>
+			<name>Flying Squirrel</name>
+			<set picURL="https://i.imgur.com/ByNXCi1.jpg">CS1</set>
+			<color>G</color>
+			<manacost>1G</manacost>
+			<cmc>2</cmc>
+			<type>Creature - Squirrel</type>
+			<pt>1/2</pt>
+			<tablerow>2</tablerow>
+			<text>Flying
+			Forestwalk</text>
+		</card>
+		<card>
+			<name>Dealer of Fate</name>
+			<set picURL="https://i.imgur.com/XcTEGhL.jpg">CS1</set>
+			<color>U</color>
+			<manacost>2UU</manacost>
+			<cmc>4</cmc>
+			<type>Creature - Weird Shaman</type>
+			<pt>1/3</pt>
+			<tablerow>2</tablerow>
+			<text>Skulk
+			Whenever Dealer of Fate deals damage to an opponent, you may scry 1.
+			Whenever you scry, flip a coin. If you win the flip, you may scry 1 or draw a card.</text>
+		</card>
+		<card>
+			<name>Scarecrow</name>
+			<set picURL="https://i.imgur.com/yb5DXtQ.jpg">CS1</set>
+			<manacost>3</manacost>
+			<cmc>3</cmc>
+			<type>Artifact Creature - Scarecrow</type>
+			<pt>1/3</pt>
+			<tablerow>2</tablerow>
+			<text>Bird creatures can't attack you or planeswalkers you control.</text>
+		</card>
 		<!-- Enchantments -->
 		<card>
-			<name>Chroma Processing WIP</name>
-			<set picURL="">CS1</set>
-			<color>G</color>
-			<manacost>G</manacost> <!-- TBD -->
-			<cmc>0</cmc> <!-- TBD -->
+			<name>Squirrel Den</name>
+			<set picURL="https://i.imgur.com/7BVhSLc.jpg">CS1</set>
+			<related>Squirrel</related>
+			<manacost>1GG</manacost>
+			<cmc>3</cmc>
 			<type>Enchantment</type>
 			<tablerow>1</tablerow>
-			<text>Lands you control enter the battlefield tapped and have "{T}: Add one mana of any color to your mana pool."</text>
+			<text>At the beginning of your upkeep, put an age counter on Squirrel Den.
+			{G}{G}{G}, {T}: Create a 1/1 green Squirrel creature token for each age counter on Squirrel Den, then sacrifice Squirrel Den.</text>
 		</card>
 		<card>
-			<name>Circle of Protection: Tribal</name>
-			<set picURL="">CS1</set>
-			<color>W</color>
-			<manacost>1W</manacost>
-			<cmc>2</cmc>
-			<type>Enchantment</type>
+			<name>Charm Monster</name>
+			<set picURL="https://i.imgur.com/L02tuRN.jpg">CS1</set>
+			<manacost>2UU</manacost>
+			<cmc>4</cmc>
+			<type>Enchantment - Aura</type>
 			<tablerow>1</tablerow>
-			<text>When ~ enters the battlefield, choose a creature type.\n{2}: The next time a creature of the chosen type would deal damage to you this turn, prevent that damage.</text>
+			<text>Enchant target attacking creature
+			Flash
+			You control enchanted creature.</text>
 		</card>
 		<!-- Artifacts -->
+		<card>
+			<name>Slowforged Blade</name>
+			<set picURL="https://i.imgur.com/8x6tZ3W.jpg">CS1</set>
+			<manacost>1</manacost>
+			<cmc>1</cmc>
+			<type>Artifact - Equipment</type>
+			<tablerow>1</tablerow>
+			<text>At the beginning of your upkeep, if Slowforged Blade is not attached to a creature, put a charge counter on it.
+			Equipped creature gets +1/+1 for each charge counter on Slowforged Blade.
+			Equip {3}</text>
+		</card>
+		<card>
+			<name>Goblin Time Bomb</name>
+			<set picURL="https://i.imgur.com/FfkkzzO.jpg">CS1</set>
+			<color>R</color>
+			<manacost>2R</manacost>
+			<cmc>3</cmc>
+			<type>Tribal Artifact - Goblin</type>
+			<tablerow>1</tablerow>
+			<text>When Goblin Time Bomb enters the battlefield, target opponent gains control of it.
+			At the beginning of your end step, flip a coin. If you win the flip, target player gains control of Goblin Time Bomb. If you lose the flip, sacrifice Goblin Time Bomb and it does 5 damage to you.</text>
+		</card>
 		<!-- Planeswalkers -->
 		<!-- Instants -->
 		<card>
-			<name>Focus</name>
-			<set picURL="">CS1</set>
+			<name>Forbid</name>
+			<set picURL="https://i.imgur.com/qPsH99Y.jpg">CS1</set>
 			<color>U</color>
-			<manacost>0</manacost>
-			<cmc>0</cmc>
+			<manacost>1UU</manacost>
+			<cmc>3</cmc>
 			<type>Instant</type>
 			<tablerow>3</tablerow>
-			<text>(~ is Blue)\nScry 1</text>
+			<text>Forbid costs {1} less if you cast it on your turn.
+			Counter target spell.</text>
 		</card>
 		<card>
-			<name>Study the Tomes</name>
-			<set picURL="">CS1</set>
+			<name>Gather Resources</name>
+			<set picURL="https://i.imgur.com/kKNJtDn.jpg">CS1</set>
 			<color>U</color>
 			<manacost>1UU</manacost>
 			<cmc>3</cmc>
@@ -203,7 +281,106 @@
 			<tablerow>3</tablerow>
 			<text>Draw 2 cards.</text>
 		</card>
+		<card>
+			<name>Thunderous Strike</name>
+			<set picURL="https://i.imgur.com/LYJiLYK.jpg">CS1</set>
+			<color>U</color>
+			<manacost>5R</manacost>
+			<cmc>6</cmc>
+			<type>Instant</type>
+			<tablerow>3</tablerow>
+			<text>Thunderous Strike costs {1} less for each spell you've cast this turn.
+			Thunderous Strike deals 3 damage to up to 3 target creatures or players.</text>
+		</card>
+		<card>
+			<name>Hidden Ninja</name>
+			<set picURL="https://i.imgur.com/WI8IbhP.jpg">CS1</set>
+			<related>Ninja</related>
+			<color>U</color>
+			<color>B</color>
+			<manacost>1UB</manacost>
+			<cmc>3</cmc>
+			<type>Instant</type>
+			<tablerow>3</tablerow>
+			<text>Return an unblocked attacker you control to your hand. Create a 2/2 blue and black Ninja creature token that's tapped and attacking the same creature or planeswalker that the original unblocked attacker was attacking.</text>
+		</card>
+		<card>
+			<name>Ninja</name>
+			<set picURL="https://i.imgur.com/o46frQM.jpg">CS1</set>
+			<color>U</color>
+			<color>B</color>
+			<manacost></manacost>
+			<cmc>0</cmc>
+			<type>Creature - Ninja</type>
+			<pt>2/2</pt>
+			<tablerow>2</tablerow>
+			<text></text>
+			<token>1</token>
+		</card>
 		<!-- Sorceries -->
+		<card>
+			<name>Manifested Destiny</name>
+			<set picURL="https://i.imgur.com/dch4HAK.jpg">CS1</set>
+			<color>U</color>
+			<color>G</color>
+			<manacost>1GU</manacost>
+			<cmc>3</cmc>
+			<type>Sorcery</type>
+			<tablerow>3</tablerow>
+			<text>Search your library for a card and manifest it, then shuffle your library.</text>
+		</card>
+		<card>
+			<name>Honest Attempt</name>
+			<set picURL="https://i.imgur.com/LmlKQHL.jpg">CS1</set>
+			<color>R</color>
+			<manacost>3R</manacost>
+			<cmc>4</cmc>
+			<type>Sorcery</type>
+			<tablerow>3</tablerow>
+			<text>Flip a coin. If you win the flip, gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. If you lose the flip, draw two cards then discard a card.</text>
+		</card>
+		<card>
+			<name>Forbidden Knowledge</name>
+			<set picURL="https://i.imgur.com/VEFFKX6.jpg">CS1</set>
+			<color>B</color>
+			<manacost>2B</manacost>
+			<cmc>3</cmc>
+			<type>Sorcery</type>
+			<tablerow>3</tablerow>
+			<text>Sacrifice a creature, then draw a number of cards equal to that creature's converted mana cost.</text>
+		</card>
+		<card>
+			<name>False Security</name>
+			<set picURL="https://i.imgur.com/drQRImN.jpg">CS1</set>
+			<color>B</color>
+			<manacost>2BB</manacost>
+			<cmc>4</cmc>
+			<type>Sorcery</type>
+			<tablerow>3</tablerow>
+			<text>Destroy all creatures with hexproof or shroud.</text>
+		</card>
+		<card>
+			<name>Call Upon the Departed</name>
+			<set picURL="https://i.imgur.com/rQhd67q.jpg">CS1</set>
+			<color>W</color>
+			<color>B</color>
+			<manacost>1WB</manacost>
+			<cmc>3</cmc>
+			<type>Sorcery</type>
+			<tablerow>3</tablerow>
+			<text>Exile arget creature from your graveyard. Create a token that's a copy of that creature, except it has a base power and toughness of 1/1, as flying, and is a spirit in addition to its other types.</text>
+		</card>
+		<card>
+			<name>Peruse the Wares</name>
+			<set picURL="https://i.imgur.com/g2BcBWv.jpg">CS1</set>
+			<color>W</color>
+			<manacost>XXW</manacost>
+			<cmc>1</cmc>
+			<type>Sorcery</type>
+			<tablerow>3</tablerow>
+			<text>Search your library for an Equipment card with converted mana cost X, reveal it, and put it onto the battlefield under your control.
+			Surge {X}{W}</text>
+		</card>
 		<!-- Other -->
 	</cards>
 </cockatrice_carddatabase>
